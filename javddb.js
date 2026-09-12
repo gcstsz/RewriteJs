@@ -6,8 +6,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/gcstsz/RewriteJs/refs/heads/main/javddb.js
-;^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(movies|movie_played) url script-request-header https://raw.githubusercontent.com/gcstsz/RewriteJs/refs/heads/main/javddb.js
+^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/gcstsz/RewriteJs/main/javddb.js
+;^https?:\/\/api\.liquidlink\.cn\/api\/v\d\/(movies|movie_played) url script-request-header https://raw.githubusercontent.com/gcstsz/RewriteJs/main/javddb.js
 
 [mitm]
 hostname = api.liquidlink.cn
